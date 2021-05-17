@@ -15,6 +15,3 @@ TOML       27 mins         ▒░░░░░░░░░░░░░░░░�
 Makefile   22 mins         ▒░░░░░░░░░░░░░░░░░░░░░░░░   01.37 % 
 ```
 <!--END_SECTION:waka-->
-
-[![spotify-github-profile](https://spotify-github-profile.vercel.app/api/view?uid=iftr63d5ost38g0o26wcjzd8k&cover_image=true&theme=compact)](https://github.com/kittinan/spotify-github-profile)
-
