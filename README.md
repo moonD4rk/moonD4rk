@@ -26,7 +26,7 @@ func main() {
 
 
 <h3>📊 This Week I Spent My Time On:</h3>
-<img align='right' src="https://spotify-github-profile.vercel.app/api/view?uid=iftr63d5ost38g0o26wcjzd8k&cover_image=true&theme=novatorem" width="300">
+<img align='right' src="https://spotify-github-profile.vercel.app/api/view?uid=dayjackson56081&cover_image=true&theme=novatorem" width="300">
 
 <!--START_SECTION:waka-->
 ```text
