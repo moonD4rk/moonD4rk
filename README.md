@@ -30,10 +30,7 @@ func main() {
 
 <!--START_SECTION:waka-->
 ```text
-Go       48 mins         ██████████████▓░░░░░░░░░░   58.79 % 
-Python   22 mins         ██████▓░░░░░░░░░░░░░░░░░░   26.93 % 
-Text     9 mins          ███░░░░░░░░░░░░░░░░░░░░░░   11.88 % 
-CSV      1 min           ▒░░░░░░░░░░░░░░░░░░░░░░░░   01.43 % 
+No Activity tracked this Week
 ```
 <!--END_SECTION:waka-->
 
