@@ -30,7 +30,8 @@ func main() {
 
 <!--START_SECTION:waka-->
 ```text
-No Activity tracked this Week
+Go      34 mins         █████████████████████░░░░   84.17 % 
+Other   6 mins          ████░░░░░░░░░░░░░░░░░░░░░   15.73 % 
 ```
 <!--END_SECTION:waka-->
 
