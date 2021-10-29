@@ -30,7 +30,8 @@ func main() {
 
 <!--START_SECTION:waka-->
 ```text
-Go         3 hrs 7 mins    █████████████████████████   99.88 % 
+Go       5 hrs 3 mins    ███████████████████░░░░░░   75.62 % 
+Python   1 hr 37 mins    ██████░░░░░░░░░░░░░░░░░░░   24.34 % 
 ```
 <!--END_SECTION:waka-->
 
