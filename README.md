@@ -30,10 +30,7 @@ func main() {
 
 <!--START_SECTION:waka-->
 ```text
-Go               2 hrs 35 mins   ████████████████████████░   95.37 % 
-sshconfig        3 mins          ▓░░░░░░░░░░░░░░░░░░░░░░░░   02.32 % 
-Markdown         1 min           ▒░░░░░░░░░░░░░░░░░░░░░░░░   00.74 % 
-Text             1 min           ▒░░░░░░░░░░░░░░░░░░░░░░░░   00.69 % 
+No Activity tracked this Week
 ```
 <!--END_SECTION:waka-->
 
