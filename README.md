@@ -30,7 +30,11 @@ func main() {
 
 <!--START_SECTION:waka-->
 ```text
-No Activity tracked this Week
+Go               6 hrs 48 mins   ██████████████████████░░░   87.73 % 
+YAML             35 mins         ██░░░░░░░░░░░░░░░░░░░░░░░   07.53 % 
+GitIgnore file   15 mins         ▓░░░░░░░░░░░░░░░░░░░░░░░░   03.29 % 
+go.mod           2 mins          ░░░░░░░░░░░░░░░░░░░░░░░░░   00.63 % 
+Text             1 min           ░░░░░░░░░░░░░░░░░░░░░░░░░   00.31 % 
 ```
 <!--END_SECTION:waka-->
 
