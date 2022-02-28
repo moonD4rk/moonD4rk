@@ -29,12 +29,15 @@ func main() {
 <img align='right' src="https://spotify-github-profile.vercel.app/api/view?uid=dayjackson56081&cover_image=true&theme=novatorem" width="300">
 
 <!--START_SECTION:waka-->
+
 ```text
-Go     6 hrs 34 mins   ██████████████████████░░░   87.42 % 
-conf   36 mins         ██░░░░░░░░░░░░░░░░░░░░░░░   08.11 % 
-YAML   8 mins          ▒░░░░░░░░░░░░░░░░░░░░░░░░   01.78 % 
-JSON   7 mins          ▒░░░░░░░░░░░░░░░░░░░░░░░░   01.62 % 
-Text   3 mins          ▒░░░░░░░░░░░░░░░░░░░░░░░░   00.76 % 
+Go               8 hrs 11 mins   █████████████████████▓░░░   87.26 %
+conf             36 mins         █▓░░░░░░░░░░░░░░░░░░░░░░░   06.50 %
+YAML             18 mins         █░░░░░░░░░░░░░░░░░░░░░░░░   03.34 %
+JSON             7 mins          ▒░░░░░░░░░░░░░░░░░░░░░░░░   01.35 %
+Text             7 mins          ▒░░░░░░░░░░░░░░░░░░░░░░░░   01.30 %
+Cheetah          0 secs          ░░░░░░░░░░░░░░░░░░░░░░░░░   00.15 %
 ```
+
 <!--END_SECTION:waka-->
 
