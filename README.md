@@ -1,6 +1,7 @@
 <h2> Hi, I'm ᴍᴏᴏɴD4ʀᴋ!</h2>
-<img align='right' src="https://github-readme-stats.vercel.app/api?username=moond4rk&show_icons=true&theme=radical" width="300">
-
+<!--START_SECTION:movie_cover-->
+<img align="right" src="https://a.ltrbxd.com/resized/film-poster/4/5/5/9/8/6/455986-teahouse-0-460-0-690-crop.jpg" width="242" height="340" alt="letter-movie-cover">
+<!--END_SECTION:movie_cover-->
 
 ```go
 package main
@@ -26,7 +27,7 @@ func main() {
 
 
 <h3>📊 This Week I Spent My Time On:</h3>
-<img align='right' src="https://spotify-github-profile.vercel.app/api/view?uid=zbgk3g7ojwjwrwrleo6u8mhub&cover_image=true&theme=novatorem" width="300">
+<img align='right' src="https://github-readme-stats.vercel.app/api?username=moond4rk&show_icons=true&theme=radical" width="300" height="130">
 
 <!--START_SECTION:waka-->
 
