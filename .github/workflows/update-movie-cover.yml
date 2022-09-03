@@ -15,7 +15,7 @@ jobs:
         fetch-depth: 0 # otherwise, you will failed to push refs to dest repo
     - uses: actions/setup-python@v4
       with:
-        python-version: '3.10.0'
+        python-version: '3.10' 
     - name: Create local changes
       run: |
         cd .github/script
