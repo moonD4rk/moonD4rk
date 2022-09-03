@@ -21,23 +21,24 @@ class Constants:
     block_pattern: str = f'{start_comment}[\\s\\S]+{end_comment}'
 
 
-def fetch_all_urls() -> tuple[str, str, str]:
+def fetch_all_movies() -> list[tuple[str, str, str]]:
     """
     return image url, and image title.
     """
-    content = req_get(consts.main_url).content
-    soup = BeautifulSoup(content, features="lxml")
+    r = req_get(consts.main_url)
+    main_content = r.content
+    soup = BeautifulSoup(main_content, features="lxml")
     div_list = soup.find_all('div', attrs={
         "class": "film-poster"
     })
-    urls = []
+    m = []
     for i in div_list:
         film_id = i.attrs["data-film-id"]
         ajax_link = i.attrs["data-target-link"]
         img = i.find("img")
         film_name = img.attrs["alt"]
-        urls.append((film_name, film_id, ajax_link))
-    return urls
+        m.append((film_name, film_id, ajax_link))
+    return m
 
 
 def cover_url(index, film_name, film_id):
@@ -58,7 +59,11 @@ def image_url_with_ajax(index: int, target_link: str):
     return index, link.replace("-0-70-0-105-crop", consts.size_in_path)
 
 
-def is_url_exist(url):
+def is_url_exist(url: tuple[int, str]):
+    """
+    :param url:
+    :return:
+    """
     return req_head(url=url[1]).ok
 
 
@@ -72,11 +77,12 @@ if __name__ == '__main__':
     rand = SystemRandom()
 
     print("download image...")
-    fetched_urls: list[tuple[str, str, str]] = fetch_all_urls()
-    urls: list[tuple[int, str]] = [cover_url(i, v[0], v[1]) for i, v in enumerate(fetched_urls)]
-    url: tuple[int, str] = rand.choice(urls)
-    if not is_url_exist(url):
-        url: tuple[int, str] = image_url_with_ajax(url[0], fetched_urls[url[0]][2])
+    fetched_movies: list[tuple[str, str, str]] = fetch_all_movies()
+    movie_urls: list[tuple[int, str]] = [cover_url(i, v[0], v[1]) for i, v in enumerate(fetched_movies)]
+    movie_url: tuple[int, str] = rand.choice(movie_urls)
+
+    if not is_url_exist(movie_url):
+        movie_url: tuple[int, str] = image_url_with_ajax(movie_url[0], fetched_movies[movie_url[0]][2])
 
     print("read old readme...")
     with open("../../readme.md", "r") as old_readme:
@@ -84,7 +90,7 @@ if __name__ == '__main__':
 
     new_readme = re.sub(
         pattern=consts.block_pattern,
-        repl=f'{consts.start_comment}\n{new_img(url[1])}\n{consts.end_comment}',
+        repl=f'{consts.start_comment}\n{new_img(movie_url[1])}\n{consts.end_comment}',
         string=content
     )
 
