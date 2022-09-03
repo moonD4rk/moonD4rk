@@ -1,6 +1,6 @@
 <h2> Hi, I'm ᴍᴏᴏɴD4ʀᴋ!</h2>
 <!--START_SECTION:movie_cover-->
-<img align="right" src="https://a.ltrbxd.com/resized/film-poster/4/5/5/9/8/6/455986-teahouse-0-460-0-690-crop.jpg" width="242" height="340" alt="letter-movie-cover">
+<img align="right" src="https://a.ltrbxd.com/resized/film-poster/2/4/2/7/8/8/242788-our-little-sister-0-460-0-690-crop.jpg" width="242" height="340" alt="letter-movie-cover">
 <!--END_SECTION:movie_cover-->
 
 ```go
