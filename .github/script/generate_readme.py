@@ -85,7 +85,7 @@ if __name__ == '__main__':
         movie_url: tuple[int, str] = image_url_with_ajax(movie_url[0], fetched_movies[movie_url[0]][2])
 
     print("read old readme...")
-    with open("../../readme.md", "r") as old_readme:
+    with open("../../README.md", "r") as old_readme:
         content = old_readme.read()
 
     new_readme = re.sub(
@@ -95,7 +95,7 @@ if __name__ == '__main__':
     )
 
     print("write to new readme...")
-    with open("../../readme.md", "w+") as f:
+    with open("../../README.md", "w+") as f:
         f.write(new_readme)
 
     print("finished!")
