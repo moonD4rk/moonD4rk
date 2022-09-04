@@ -1,6 +1,6 @@
 <h2> Hi, I'm ᴍᴏᴏɴD4ʀᴋ!</h2>
 <!--START_SECTION:movie_cover-->
-<img align="right" src="https://a.ltrbxd.com/resized/film-poster/2/4/2/7/8/8/242788-our-little-sister-0-460-0-690-crop.jpg" width="242" height="340" alt="letter-movie-cover">
+<img align="right" src="https://a.ltrbxd.com/resized/film-poster/7/8/0/3/9/0/780390-d-p--0-460-0-690-crop.jpg?v=32e1f7a0f9" width="242" height="340" alt="letter-movie-cover">
 <!--END_SECTION:movie_cover-->
 
 ```go
