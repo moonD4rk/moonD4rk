@@ -1,7 +1,4 @@
-<h2> Hi, I'm ᴍᴏᴏɴD4ʀᴋ!</h2>
-<!--START_SECTION:movie_cover-->
-<img align="right" src="https://a.ltrbxd.com/resized/film-poster/7/8/0/3/9/0/780390-d-p--0-460-0-690-crop.jpg?v=32e1f7a0f9" width="242" height="340" alt="letter-movie-cover">
-<!--END_SECTION:movie_cover-->
+<h2> Hi, I'm moonD4rk!</h2>
 
 ```go
 package main
@@ -24,10 +21,8 @@ func main() {
 }
 ```
 
-
-
 <h3>📊 This Week I Spent My Time On:</h3>
-<img align='right' src="https://github-readme-stats.vercel.app/api?username=moond4rk&show_icons=true&theme=radical" width="300" height="130">
+<img align='right' src="https://github-readme-stats.vercel.app/api?username=moond4rk&show_icons=true&theme=radical">
 
 <!--START_SECTION:waka-->
 
