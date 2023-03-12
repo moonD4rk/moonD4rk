@@ -15,7 +15,7 @@ func main() {
 		Name:   "moonD4rk",
 		Job:    "Cyber Security Engineer",
 		Code:   "Go and Python and Others",
-		Skills: "Web Hacking ^o^",
+		Skills: "Hacking ^o^",
 	}
 	_ = me
 }
