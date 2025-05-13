@@ -27,11 +27,11 @@ func main() {
 <!--START_SECTION:waka-->
 
 ```txt
-Python             19 hrs 3 mins   ████████████████░░░░░░░░░   63.34 %
-Markdown           6 hrs 7 mins    █████░░░░░░░░░░░░░░░░░░░░   20.34 %
-sh                 3 hrs 56 mins   ███▒░░░░░░░░░░░░░░░░░░░░░   13.08 %
-Requirements.txt   11 mins         ░░░░░░░░░░░░░░░░░░░░░░░░░   00.65 %
-Text               11 mins         ░░░░░░░░░░░░░░░░░░░░░░░░░   00.63 %
+Python             14 hrs 50 mins  ██████████████▓░░░░░░░░░░   58.87 %
+Markdown           6 hrs 17 mins   ██████▒░░░░░░░░░░░░░░░░░░   24.93 %
+sh                 3 hrs 11 mins   ███░░░░░░░░░░░░░░░░░░░░░░   12.66 %
+Requirements.txt   11 mins         ▒░░░░░░░░░░░░░░░░░░░░░░░░   00.78 %
+Text               9 mins          ░░░░░░░░░░░░░░░░░░░░░░░░░   00.63 %
 ```
 
 <!--END_SECTION:waka-->
