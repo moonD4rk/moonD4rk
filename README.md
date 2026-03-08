@@ -12,7 +12,7 @@ type Me struct {
 func main() {
 	me := &Me{
 		Name:  "moonD4rk",
-		Roles: []string{"Cyber Security Engineer", "Backend Engineer", "SRE"},
+		Roles: []string{"Cyber Security Engineer", "Backend Developer", "SRE"},
 		Bio:   "Building systems by day, Breaking them by night.",
 	}
 	_ = me
